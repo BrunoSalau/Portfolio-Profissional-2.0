@@ -36,3 +36,13 @@ qd3.addEventListener('click', () => {
 qd3.style.cursor = 'pointer'
 
 //======================================================
+
+let qd4 = document.getElementById('qd4')
+
+qd4.addEventListener('click', () => {
+    window.location.href = "Jogo/index.html";
+  });
+
+qd4.style.cursor = 'pointer'
+
+//======================================================
