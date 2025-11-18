@@ -16,7 +16,28 @@
 #qd3{
   transition: 0.5s;
 }
+#qd4{
+  transition: 0.5s;
+}
 .card-body a{
   text-decoration: none;
   color: rgb(10, 10, 14);
+}
+#Scss{
+  color: rgb(64, 55, 197);font-size: 70%;
+}
+#Shtml{
+  color: rgb(209, 87, 43);font-size: 70%;
+}
+#Sjs{
+  color: rgb(184, 194, 43);font-size: 70%;
+}
+#barraI{
+  font-size: 70%;
+}
+#CompS{
+  color: rgb(89, 204, 74);
+}
+#CompN{
+  color: rgb(207, 63, 63);
 }
