@@ -1,11 +1,8 @@
 
-  // Seleciona todas as divs principais automaticamente
   const sections = document.querySelectorAll(".container, .row, .card");
 
-  // Adiciona a classe 'animar' em cada uma (sem mudar o HTML)
   sections.forEach(sec => sec.classList.add("animar"));
 
-  // Cria o observador
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -14,7 +11,6 @@
     });
   });
 
-  // Observa todos os elementos
   sections.forEach(el => observer.observe(el));
 
   const cardHTML = document.querySelector("#html .card");
@@ -33,6 +29,7 @@ function subir(x){
 function descer(x){
   x.style.transform = 'translateY(0px)'
 }
+
 
 
 
